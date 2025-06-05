@@ -46,8 +46,7 @@ adherence_plot <- ggplot(adherence_summary, aes(x = 2, y = percentage, fill = me
     name = "Adherence Status"
   ) +
   labs(
-    title = paste0(round(nonadh_p, digits = 0), "% of respondents
-    do not take their medicines as prescribed"),
+    title = "Medication Adherence Distribution",
     subtitle = paste("Survey of", n, "patients from", unique_countries, "countries")
   ) #+geom_text(aes(y = ypos, label = paste0(round(percentage, 1), "%")), x = 2.3, size = 5, fontface = "bold")
 

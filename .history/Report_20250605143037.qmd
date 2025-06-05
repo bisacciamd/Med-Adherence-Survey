@@ -47,7 +47,7 @@ adherence_plot
 ```
 
 ```{r adherence-lang}
-kable(adherence_by_country[order(adherence_by_country$n_total, decreasing = TRUE), ], caption = "Adherence by country", align = "c", col.names = c("Language", "Respondents (n)", "Adherent (n)", "Adherent (%)"))
+kable(adherence_by_country[order(adherence_by_country$n_total, decreasing = TRUE), ], caption = "Adherence by language", align = "c", col.names = c("Language", "Respondents (n)", "Adherent (n)", "Adherent (%)"))
 ```
 ```{r}
 library(knitr)
@@ -77,9 +77,3 @@ grid.arrange(causes_plot, category_donut, ncol = 2)
 source("scripts/intervention_plot.R")
 ```
 
-
-```{r}
-source("scripts/word-bubbles.R")
-
-
-```

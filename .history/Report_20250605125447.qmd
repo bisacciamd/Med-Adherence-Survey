@@ -16,7 +16,7 @@ execute:
   warning: false
   error: true
   output: true
-  cache: false
+  cache: true
 ---
 
 # Introduction
@@ -31,8 +31,6 @@ The data was cleaned using R and the following steps were taken: patients who re
 # Results
 ## Adherence
 ```{r data-grab}
-options(digits=1)
-library(knitr)
 source("scripts/grab.R")
 n <- nrow(all_data)
 nonadh_n <- sum(all_data$medication_adherence!="I always take them as the doctor told me")
@@ -47,7 +45,7 @@ adherence_plot
 ```
 
 ```{r adherence-lang}
-kable(adherence_by_country[order(adherence_by_country$n_total, decreasing = TRUE), ], caption = "Adherence by country", align = "c", col.names = c("Language", "Respondents (n)", "Adherent (n)", "Adherent (%)"))
+kable(adherence_by_country[order(adherence_by_country$n_total, decreasing = TRUE), ], caption = "Adherence by language", align = "c", col.names = c("Language", "Respondents (n)", "Adherent (n)", "Adherent (%)"))
 ```
 ```{r}
 library(knitr)
@@ -57,29 +55,13 @@ col.names = c("Language", "Respondents (n)", "Adherent (%)", "Sometimes forget (
 
 ## Causes of non-adherence
 The main causes of non-adherence were:
-
-```{r}
-source("scripts/causes.R")
-
-# Category donut chart (if created in the script)
-category_donut
-
-# Reasons per patient bar chart (if created in the script)
-reasons_per_patient
-
-# If you want to see all plots in a grid (optional)
-library(gridExtra)
-grid.arrange(causes_plot, category_donut, ncol = 2)
-```
+- Forgetfulness
+- Lack of time
+- Lack of money
+- Lack of support
 
 
 ```{r}
 source("scripts/intervention_plot.R")
 ```
 
-
-```{r}
-source("scripts/word-bubbles.R")
-
-
-```

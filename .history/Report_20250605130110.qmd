@@ -32,7 +32,6 @@ The data was cleaned using R and the following steps were taken: patients who re
 ## Adherence
 ```{r data-grab}
 options(digits=1)
-library(knitr)
 source("scripts/grab.R")
 n <- nrow(all_data)
 nonadh_n <- sum(all_data$medication_adherence!="I always take them as the doctor told me")
@@ -47,7 +46,7 @@ adherence_plot
 ```
 
 ```{r adherence-lang}
-kable(adherence_by_country[order(adherence_by_country$n_total, decreasing = TRUE), ], caption = "Adherence by country", align = "c", col.names = c("Language", "Respondents (n)", "Adherent (n)", "Adherent (%)"))
+kable(adherence_by_country[order(adherence_by_country$n_total, decreasing = TRUE), ], caption = "Adherence by language", align = "c", col.names = c("Language", "Respondents (n)", "Adherent (n)", "Adherent (%)"))
 ```
 ```{r}
 library(knitr)
@@ -60,6 +59,9 @@ The main causes of non-adherence were:
 
 ```{r}
 source("scripts/causes.R")
+
+# Main causes donut chart
+causes_plot
 
 # Category donut chart (if created in the script)
 category_donut
@@ -77,9 +79,3 @@ grid.arrange(causes_plot, category_donut, ncol = 2)
 source("scripts/intervention_plot.R")
 ```
 
-
-```{r}
-source("scripts/word-bubbles.R")
-
-
-```

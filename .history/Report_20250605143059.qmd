@@ -77,9 +77,3 @@ grid.arrange(causes_plot, category_donut, ncol = 2)
 source("scripts/intervention_plot.R")
 ```
 
-
-```{r}
-source("scripts/word-bubbles.R")
-
-
-```
