@@ -9,6 +9,7 @@ format:
     toc-title: "Table of Contents"
     number-sections: true
     code-fold: true
+
 execute: 
   echo: false
   message: false
@@ -51,7 +52,7 @@ adherence_plot
 ```
 
 ```{r adherence-lang}
-kable(adherence_by_country[order(adherence_by_country$n_total, decreasing = TRUE), ], caption = "Adherence by country", align = "c", col.names = c("Country", "Respondents (n)", "Adherent (n)", "Adherent (%)"))
+kable(adherence_by_country[order(adherence_by_country$n_total, decreasing = TRUE), ], caption = "Adherence by country", align = "c", col.names = c("Language", "Respondents (n)", "Adherent (n)", "Adherent (%)"))
 ```
 
 ```{r}
@@ -62,7 +63,7 @@ col.names = c("Language", "Respondents (n)", "Adherent (%)", "Sometimes forget (
 
 ```{r}
 library(knitr)
-summary_stats |> 
+summary_stats |> select(Language, n_total, adherent, forget_lt_week, forget_gt_week, stopped, impact_identity, vouchers, fine, support_program, phone_reminders, emoji, pension_collection, health_info)
 kable(caption = "Summary of survey responses by language", align = "c", 
 col.names = c("Language", "Respondents (n)", "Adherent (%)", "Sometimes forget (< once a week) (%)", "Sometimes forget (>  once a week) (%)", "Stopped (%))", "Impact on identity (%)", "Vouchers rating", "Fine rating", "Support program rating", "Phone reminders rating", "Emoji rating", "Pension collection rating", "Health info rating"))
 ```
