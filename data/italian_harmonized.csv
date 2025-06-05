@@ -1,0 +1,6 @@
+source_language,timestamp,country,medication_adherence,non_adherence_reasons,vouchers_rating,fine_rating,support_program_rating,phone_reminders_rating,emoji_rating,pension_collection_rating,health_info_rating,identity_impact
+Italian,2025-06-04 18:04:08.523,Italia,I always take them as the doctor told me,I forget,1,3,1,4,3,NA,4,No
+Italian,2025-06-04 18:51:35.48,Italia,I always take them as the doctor told me,I forget,3,3,1,4,1,1,4,No
+Italian,2025-06-05 09:12:40.641,Italia,Sometimes I forget (less than once a week),"I don't trust these medicines, They give me unpleasant effects, They remind me that I'm ill and I don't like that",1,3,1,3,1,NA,3,Yes
+Italian,2025-06-05 09:13:37.69,Italia,I always take them as the doctor told me,"They give me unpleasant effects, Epatite da farmaci",1,1,1,3,1,1,4,Yes
+Italian,2025-06-05 09:21:08.617,Italia,I always take them as the doctor told me,They give me unpleasant effects,1,1,3,3,3,1,3,No

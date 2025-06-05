@@ -1,0 +1,45 @@
+---
+title: "Report on a study on medication non-adherence"
+author: "Ana, Sophie, Giando and Geraldine"
+date: "2025-06-05"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    toc-title: "Table of Contents"
+    number-sections: true
+    code-fold: true
+---
+
+# Introduction
+A survey was conducted to understand the extent of medication non-adherence in four languages: Italian, Portuguese, French and English. 
+
+# Data collection
+The survey was conducted online via Google Forms and the data was collected in spreadsheets for analysis.
+
+# Data cleaning
+The data was cleaned using R and the following steps were taken: patients who responded that they adhere to their treatment were excluded from the analysis of causes of non-adherence. All other replies were included as reported.
+
+# Results
+## Adherence
+```{r data-grab}
+source("scripts/grab.R")
+n <- nrow(all_data)
+nonadh_n <- sum(all_data$medication_adherence!="I always take them as the doctor told me")
+nonadh_p <- round(nonadh_n/n*100, 2)
+```
+
+The results show that the majority of patients responding to this survey do adhere to their treatment as prescribed by their doctor. Overall, **`r nonadh_n` (`r nonadh_p`%)** of patients stated not adhering to their treatment as intended or prescribed.
+
+
+## Causes of non-adherence
+The main causes of non-adherence were:
+- Forgetfulness
+- Lack of time
+- Lack of money
+- Lack of support
+
+
+```{r}
+source("scripts/intervention_plot.R")
+```

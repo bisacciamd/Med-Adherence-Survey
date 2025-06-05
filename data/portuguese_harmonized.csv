@@ -1,0 +1,8 @@
+source_language,timestamp,country,medication_adherence,non_adherence_reasons,vouchers_rating,fine_rating,support_program_rating,phone_reminders_rating,emoji_rating,pension_collection_rating,health_info_rating,identity_impact
+Portuguese,2025-06-04 16:29:19.904,Portugal,Eu deixo de tomar 1 vez por semana,Porque me esqueço,NA,NA,NA,4,1,1,3,Yes
+Portuguese,2025-06-04 17:02:01.205,Portugal,I always take them as the doctor told me,Porque me esqueço,1,1,1,1,1,1,1,No
+Portuguese,2025-06-04 17:24:46.044,Portugal,I always take them as the doctor told me,Porque me esqueço,3,3,NA,3,1,1,NA,No
+Portuguese,2025-06-04 18:20:44.188,Portugal,I always take them as the doctor told me,Nao aplicável,1,1,3,NA,1,1,1,No
+Portuguese,2025-06-04 18:28:49.963,Portugal,I always take them as the doctor told me,"Porque me esqueço, Tomo regularmente",1,1,1,1,1,1,1,No
+Portuguese,2025-06-04 18:37:44.087,Portugal,I always take them as the doctor told me,Porque me esqueço,1,1,1,1,1,1,1,No
+Portuguese,2025-06-04 18:45:10.693,Portugal,I always take them as the doctor told me,Porque me esqueço,1,1,3,3,NA,1,NA,No

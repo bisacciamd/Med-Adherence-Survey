@@ -1,0 +1,6 @@
+source_language,timestamp,country,medication_adherence,non_adherence_reasons,vouchers_rating,fine_rating,support_program_rating,phone_reminders_rating,emoji_rating,pension_collection_rating,health_info_rating,identity_impact
+English,2025-06-05 08:43:59.752,Romania,Sometimes I forget (less than once a week),"I don't think I need them, They remind me that I'm ill and I don't like that, Hard to get refills",3,3,3,3,NA,NA,3,No
+English,2025-06-05 08:49:09.809,Romania,Sometimes I forget (less than once a week),"I don't think I need them, Hard to refill",3,3,NA,NA,NA,NA,NA,No
+English,2025-06-05 09:55:25.043,Uk,I always take them as prescribed,Not applicable (I always take them as prescribed!),1,1,1,1,1,NA,1,Yes
+English,2025-06-05 11:02:40.518,United Kingdom,Sometimes I forget (less than once a week),I forget,NA,NA,NA,NA,NA,NA,1,Yes
+English,2025-06-05 11:53:14.76,NA,Sometimes I forget (less than once a week),I forget,1,1,1,1,1,NA,1,No
