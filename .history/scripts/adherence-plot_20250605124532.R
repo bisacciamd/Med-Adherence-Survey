@@ -55,9 +55,9 @@ adherence_plot <- ggplot(adherence_summary, aes(x = 2, y = percentage, fill = me
 # Save the plot
 #ggsave("medication_adherence_donut.png", adherence_plot, width = 10, height = 8)
 
-# #print summary statistics
-#print("Medication Adherence Summary:")
-#print(adherence_summary)
+# Print summary statistics
+print("Medication Adherence Summary:")
+print(adherence_summary)
 
 # Create a more detailed breakdown by language
 adherence_by_language <- all_data %>%
@@ -151,9 +151,9 @@ detailed_adherence_plot <- ggplot(detailed_adherence, aes(x = "", y = percentage
 # Save the detailed plot
 #ggsave("detailed_adherence_patterns.png", detailed_adherence_plot, width = 10, height = 8)
 
-# #print detailed statistics
-#print("\nDetailed Adherence Patterns:")
-#print(detailed_adherence)
+# Print detailed statistics
+print("\nDetailed Adherence Patterns:")
+print(detailed_adherence)
 
 # Calculate adherence rate by country
 adherence_by_country <- all_data %>%
@@ -168,5 +168,5 @@ adherence_by_country <- all_data %>%
   ) %>%
   arrange(desc(adherence_rate))
 
-#print("\nAdherence Rate by Country:")
-#print(adherence_by_country)
+print("\nAdherence Rate by Country:")
+print(adherence_by_country)

@@ -1,0 +1,28 @@
+source_language,timestamp,country,medication_adherence,non_adherence_reasons,vouchers_rating,fine_rating,support_program_rating,phone_reminders_rating,emoji_rating,pension_collection_rating,health_info_rating,identity_impact
+Italian,2025-06-04 18:04:08.523,Italy,I always take them as the doctor told me,I forget,1,3,1,4,3,2,4,No
+Italian,2025-06-04 18:51:35.48,Italy,I always take them as the doctor told me,I forget,3,3,1,4,1,1,4,No
+Italian,2025-06-05 09:12:40.641,Italy,Sometimes I forget (less than once a week),"I don't trust these medicines, They give me unpleasant effects, They remind me that I'm ill and I don't like that",1,3,1,3,1,2,3,Yes
+Italian,2025-06-05 09:13:37.69,Italy,I always take them as the doctor told me,"They give me unpleasant effects, Epatite da farmaci",1,1,1,3,1,1,4,Yes
+Italian,2025-06-05 09:21:08.617,Italy,I always take them as the doctor told me,They give me unpleasant effects,1,1,3,3,3,1,3,No
+Portuguese,2025-06-04 16:29:19.904,Portugal,Sometimes I forget (less than once a week),I forget,2,2,2,4,1,1,3,Yes
+Portuguese,2025-06-04 17:02:01.205,Portugal,I always take them as the doctor told me,I forget,1,1,1,1,1,1,1,No
+Portuguese,2025-06-04 17:24:46.044,Portugal,I always take them as the doctor told me,I forget,3,3,2,3,1,1,2,No
+Portuguese,2025-06-04 18:20:44.188,Portugal,I always take them as the doctor told me,Nao aplicável,1,1,3,2,1,1,1,No
+Portuguese,2025-06-04 18:28:49.963,Portugal,I always take them as the doctor told me,"I forget, Tomo regularmente",1,1,1,1,1,1,1,No
+Portuguese,2025-06-04 18:37:44.087,Portugal,I always take them as the doctor told me,I forget,1,1,1,1,1,1,1,No
+Portuguese,2025-06-04 18:45:10.693,Portugal,I always take them as the doctor told me,I forget,1,1,3,3,2,1,2,No
+French,2025-06-04 20:09:13.998,France,Sometimes I forget (less than once a week),"I don't trust these medicines, They give me unpleasant effects",1,1,2,1,1,NA,3,Yes
+French,2025-06-04 21:16:28.002,France,I always take them as the doctor told me,They give me unpleasant effects,1,4,2,2,2,NA,4,No
+French,2025-06-04 21:38:12.632,France,I always take them as the doctor told me,I forget,1,1,1,1,1,NA,3,No
+French,2025-06-04 21:40:25.588,France,I always take them as the doctor told me,Je les prend regulierement sans oubli,1,1,1,1,1,NA,4,No
+French,2025-06-04 21:47:41.327001,France,I always take them as the doctor told me,I forget,1,3,3,3,4,NA,2,No
+French,2025-06-04 22:39:59.153,France,I always take them as the doctor told me,I forget,1,1,3,3,3,NA,3,Yes
+French,2025-06-05 00:22:11.177,Thailand,I always take them as the doctor told me,I forget,1,1,1,3,1,NA,3,Yes
+French,2025-06-05 05:01:19.91,France,I always take them as the doctor told me,je les prends,3,1,3,3,3,NA,3,Yes
+French,2025-06-05 08:50:36.219,France,I always take them as the doctor told me,Je les prend régulièrement,1,4,1,4,1,NA,4,No
+French,2025-06-05 10:32:27.728,France,I always take them as the doctor told me,Je les prends toujours,1,1,1,1,1,NA,4,No
+English,2025-06-05 08:43:59.752,Romania,Sometimes I forget (less than once a week),"I don't think I need them, They remind me that I'm ill and I don't like that, Hard to get refills",3,3,3,3,NA,NA,3,No
+English,2025-06-05 08:49:09.809,Romania,Sometimes I forget (less than once a week),"I don't think I need them, Hard to refill",3,3,NA,NA,NA,NA,NA,No
+English,2025-06-05 09:55:25.043,UK,I always take them as the doctor told me,Not applicable (I always take them as prescribed!),1,1,1,1,1,NA,1,Yes
+English,2025-06-05 11:02:40.518,UK,Sometimes I forget (less than once a week),I forget,NA,NA,NA,NA,NA,NA,1,Yes
+English,2025-06-05 11:53:14.76,UK,Sometimes I forget (less than once a week),I forget,1,1,1,1,1,NA,1,No

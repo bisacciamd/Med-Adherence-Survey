@@ -45,7 +45,7 @@ adherence_plot
 ```
 
 ```{r adherence-lang}
-kable(adherence_by_country[order(adherence_by_country$n_total, decreasing = TRUE), ], caption = "Adherence by language", align = "c", col.names = c("Language", "Respondents (n)", "Adherent (n)", "Adherent (%)"))
+kable(adherence_by_country, caption = "Adherence by language", align = "c", col.names = c("Language", "Respondents (n)", "Adherent (n)", "Adherent (%)"))
 ```
 ```{r}
 library(knitr)

@@ -37,20 +37,10 @@ nonadh_n <- sum(all_data$medication_adherence!="I always take them as the doctor
 nonadh_p <- round(nonadh_n/n*100, 2)
 ```
 
-The results show that the majority of patients responding to this survey do adhere to their treatment as prescribed by their doctor. Overall, **n = `r nonadh_n` (`r nonadh_p`%)** of patients stated not adhering to their treatment as intended or prescribed.
+The results show that the majority of patients responding to this survey do adhere to their treatment as prescribed by their doctor. Overall, **`r nonadh_n` (`r nonadh_p`%)** of patients stated not adhering to their treatment as intended or prescribed.
 
 ```{r}
-source("scripts/adherence-plot.R")
-adherence_plot
-```
-
-```{r adherence-lang}
-kable(adherence_by_country[order(adherence_by_country$n_total, decreasing = TRUE), ], caption = "Adherence by language", align = "c", col.names = c("Language", "Respondents (n)", "Adherent (n)", "Adherent (%)"))
-```
-```{r}
-library(knitr)
-kable(summary_stats, caption = "Summary of survey responses by language", align = "c", 
-col.names = c("Language", "Respondents (n)", "Adherent (%)", "Sometimes forget (< once a week) (%)", "Sometimes forget (>  once a week) (%)", "Stopped (%))", "Impact on identity (%)", "Vouchers rating", "Fine rating", "Support program rating", "Phone reminders rating", "Emoji rating", "Pension collection rating", "Health info rating"))
+source("scripts/adherence_plot.R")
 ```
 
 ## Causes of non-adherence

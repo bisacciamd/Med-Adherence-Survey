@@ -40,12 +40,12 @@ nonadh_p <- round(nonadh_n/n*100, 2)
 The results show that the majority of patients responding to this survey do adhere to their treatment as prescribed by their doctor. Overall, **n = `r nonadh_n` (`r nonadh_p`%)** of patients stated not adhering to their treatment as intended or prescribed.
 
 ```{r}
-source("scripts/adherence-plot.R")
+source("scripts/adherence_plot.R")
 adherence_plot
 ```
 
 ```{r adherence-lang}
-kable(adherence_by_country[order(adherence_by_country$n_total, decreasing = TRUE), ], caption = "Adherence by language", align = "c", col.names = c("Language", "Respondents (n)", "Adherent (n)", "Adherent (%)"))
+kable(adherence_by_country, caption = "Adherence by language", align = "c", col.names = c("Language", "Respondents (n)", "Adherent (n)", "Adherent (%)"))
 ```
 ```{r}
 library(knitr)
